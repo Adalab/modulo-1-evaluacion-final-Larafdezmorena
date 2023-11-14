@@ -1,0 +1,23 @@
+@media all and (min-width:768px){
+    .first-module {
+        &__title {
+        font-size: 80px;
+        line-height: 106px;
+        margin-bottom: 40px;
+        }
+        &__subtitle {
+        font-size: 24px;
+        }   
+    }
+}
+@media all and (min-width:1280px){
+    .first-module {
+        &__title {
+        font-size: 100px;
+        line-height: 132px;
+        }
+        &__subtitle {
+        font-size: 24px;
+        }   
+    }
+}
