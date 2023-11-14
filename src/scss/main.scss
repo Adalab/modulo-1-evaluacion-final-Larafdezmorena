@@ -1,0 +1,17 @@
+/*@import 'core/variables';*/
+@import './core/reset';
+/*@import 'components/code';
+@import 'components/links';
+@import 'layout/page';*/
+@import './layout/first-module.scss';
+@import './layout/second-module.scss';
+@import './layout/third-module.scss';
+@import './layout/fourth-module.scss';
+/*@import 'pages/index';*/
+
+:root{
+    --text-color: white;
+    --font-family: roboto;
+    --widht-header: 100vw
+    --height-header: 100vh
+}
