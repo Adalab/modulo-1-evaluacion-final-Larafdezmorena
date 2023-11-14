@@ -1,3 +1,64 @@
+/*.first-module {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+    background-image: url(../images/cover.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: aquamarine;
+
+    &__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 4.4rem;
+        height: 4.4rem;
+        background-color: #0271bc;
+    }
+
+    &__icon {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    &__title {
+        font-size: 2.625rem;
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+    }
+    &__subtitle {
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    &__scroll-down {
+        background-color: white;
+        width: 2.813rem;
+        height: 2.813rem;
+        border-radius: 2.25rem;
+        margin: 3rem auto 3rem auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__icon-scroll-down {
+        position: relative;
+        top: 1rem;
+    }
+}
+*/
+
 .first-module {
     display: flex;
     flex-direction: column;
@@ -9,7 +70,7 @@
     background-size: cover;
     background-color: aquamarine;
 }
-.menu {
+.first-module__menu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,28 +82,28 @@
     background-color: #0271bc;
 }
 
-.icon-menu {
+.first-module__icon {
     width: 1.4rem;
     height: 1.4rem;
 }
-.text {
+.first-module__text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
 }
-.title {
+.first-module__title {
     font-size: 2.625rem;
     font-family: 'Roboto Slab', serif;
     text-align: center;
 }
-.subtitle {
+.first-module__subtitle {
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
-.scroll-down {
+.first-module__scroll-down {
     background-color: white;
     width: 2.813rem;
     height: 2.813rem;
@@ -52,7 +113,7 @@
     flex-direction: column;
     align-items: center;
 }
-.icon-scroll-down {
+.first-module__icon-scroll-down {
     position: relative;
     top: 1rem;
 }

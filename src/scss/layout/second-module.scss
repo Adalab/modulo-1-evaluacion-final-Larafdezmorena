@@ -1,28 +1,69 @@
 
-.first-section {
+.second-module {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    margin: 30px 15px 30px 15px
+    margin: 30px 15px 30px 15px;
+
+    &__subtitle {
+        color: #8ccbea;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    &__title {
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    &__text {
+        color: #4a4a4a;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    &__btn {
+        border-radius: 22.5px;
+        border: solid orangered 3px;
+        color: orangered;
+        background-color: white;
+        width: 76px;
+        height: 45px;
+        margin: 20px 0 20px 0;
+        font-family: 'Roboto', sans-serifq;
+        font-size: 20px;
+        transition: all ease 0.5s;
+    }
 }
-.subtitle-fsection {
+   /* &:hover {
+        color: white;
+        background-color: orange;
+        box-shadow: 0 0 10px white;
+      }
+*/
+
+/*
+.second-module__subtitle{
     color: #8ccbea;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
-.title-fsection {
+.second-module__title {
     color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     line-height: 30px;
 }
-.text-fsection {
+.second-module__text {
     color: #4a4a4a;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 30px;
 }
-.btn-go {
+.second-module__btn{
     border-radius: 22.5px;
     border: solid orangered 3px;
     color: orangered;
@@ -34,4 +75,4 @@
     font-size: 20px;
     transition: all ease 0.5s;
 }
-
+*/
