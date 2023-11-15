@@ -1,4 +1,28 @@
 @media all and (min-width:768px){
+    .fourth-module__footer {
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: left;
+    }
+    .fourth-module__menu1 {
+        display: flex;
+        order:2;
+        animation-name: menu;
+        animation-duration: 5s;
+        }
+    .fourth-module__menu2 {
+        display: flex;
+        order: 3;
+        animation-name: menu;
+        animation-duration: 5s;
+        }
+    .fourth-module__copyright {
+        display: flex;
+        order: 1;
+        }
 }
 @media all and (min-width:1280px){
+    .fourth-module__footer {
+        padding: 0 370px 0 370px;
+    }
 }
