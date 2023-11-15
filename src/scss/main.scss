@@ -1,8 +1,7 @@
-/*@import 'core/variables';*/
+@import 'core/variables';
 @import './core/reset';
 /*@import 'components/code';
-@import 'components/links';
-@import 'layout/page';*/
+@import 'components/links';*/
 @import './layout/first-module.scss';
 @import './layout/second-module.scss';
 @import './layout/third-module.scss';
@@ -14,8 +13,13 @@
 /*@import 'pages/index';*/
 
 :root{
-    --text-color: white;
-    --font-family: roboto;
-    --widht-header: 100vw
-    --height-header: 100vh
+    --text-color: black;
+    --text-colorwhite: white;
+    --font-main: 'Roboto', sans-serif;
+    --font-secundary: 'Roboto Slab', sans-serif;
+    --color-orange: #f26002;
+    --color-white: #ffffff;
+    --color-lightblue: #8ccbea;
+    --color-cerulean: #0271bc;
+    --color-darkgreyblue: #304268;
 }
