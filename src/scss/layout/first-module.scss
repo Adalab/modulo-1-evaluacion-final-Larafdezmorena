@@ -1,3 +1,64 @@
+.first-module {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+    background-image: url(../images/cover.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: aquamarine;
+}
+.first-module__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 44px;
+    height: 44px;
+    background-color: #0271bc;
+}
+
+.first-module__icon {
+    width: 14px;
+    height: 15px;
+}
+.first-module__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.first-module__title {
+    font-size: 2.625rem;
+    font-family: var(--font-secundary);
+    text-align: center;
+    margin-bottom: 40px;
+}
+.first-module__subtitle {
+    font-size: 1rem;
+    font-family: 'Roboto-Regular', sans-serif;
+    text-align: center;
+    margin-bottom: 140px;
+}
+.first-module__scroll-down {
+    background-color: white;
+    width: 2.813rem;
+    height: 2.813rem;
+    border-radius: 2.25rem;
+    margin: 3rem auto 3rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-module__icon-scroll-down {
+    position: relative;
+    top: 1rem;
+}
+
 /*.first-module {
     display: flex;
     flex-direction: column;
@@ -58,65 +119,3 @@
     }
 }
 */
-
-.first-module {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 100vh;
-    background-image: url(../images/cover.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: aquamarine;
-    box-sizing: border-box;
-}
-.first-module__menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 44px;
-    height: 44px;
-    background-color: #0271bc;
-}
-
-.first-module__icon {
-    width: 14px;
-    height: 15px;
-}
-.first-module__text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-.first-module__title {
-    font-size: 2.625rem;
-    font-family: var(--font-secundary);
-    text-align: center;
-    margin-bottom: 40px;
-}
-.first-module__subtitle {
-    font-size: 1rem;
-    font-family: 'Roboto-Regular', sans-serif;
-    text-align: center;
-    margin-bottom: 140px;
-}
-.first-module__scroll-down {
-    background-color: white;
-    width: 2.813rem;
-    height: 2.813rem;
-    border-radius: 2.25rem;
-    margin: 3rem auto 3rem auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.first-module__icon-scroll-down {
-    position: relative;
-    top: 1rem;
-}
